@@ -3,4 +3,9 @@ color: blue;
 }
 .asteroid.b329.big {
     color: blue;
+    font-weight: bold;
+}
+.container {
+    backgorund: solid 1px green;
+    font-weight: bold;
 }
