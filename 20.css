@@ -1,0 +1,34 @@
+body {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1 {
+    border: solid 1px blue;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.p2 {
+    border: solid 1px blue;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: red;
+}
+.cube_p1 {
+    width: 80px;
+    height: 80px;
+    background: blue;
+}
+.cube_p2 {
+    width: 80px;
+    height: 80px;
+    background: purple;
+}
