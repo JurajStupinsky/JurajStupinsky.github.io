@@ -1,0 +1,125 @@
+html {
+  width: 100%;
+}
+body {
+  text-align: center;
+  margin: 0;
+}
+.menu_top {
+  width: 70%;
+  height: 60px;
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  top: 0px;  
+}
+.buttons_top {
+  font-size: 60px;
+  margin-left: 10%;
+  margin-right: 10%;    
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: white;    
+}
+#bio {
+  padding-top: 70px;  
+}
+#achievements {
+  padding-top: 70px;  
+}
+#experience {
+  padding-top: 70px;  
+}
+#training {
+  padding-top: 70px;  
+}
+h1 {
+  margin-top: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;  
+}
+.anakin1{
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  padding-top: 30px;
+}
+.anakin2 {
+  font-size: 90px;
+  position: absolute;
+  top: 60%;
+  left: 31%;
+}
+h2{
+  width: 40%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+}
+h3 {
+  width: 40%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+}
+h4 {
+  width: 40%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', italic;
+  font-size: 20px
+}
+blockquote {
+  background: grey;
+  color: white;
+  width: 46%;
+  text-align: left;
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;    
+}
+blockquote:before {
+  content: '”';
+  font-size: 100px;   
+}
+blockquote p:first-child {  
+  width: 100%;
+  margin-left: 3%;
+  margin-top: -5%;
+  padding-bottom: 4%;  
+}
+ul {
+  width: 36%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;  
+}
+p {
+  width: 38%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif; 
+}
+p.p {
+  font-size: 20px;
+}
+.end_line {
+  background: black;
+  width: 42%;
+  height: 4px;
+}
