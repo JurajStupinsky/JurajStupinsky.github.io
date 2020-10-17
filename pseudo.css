@@ -1,0 +1,14 @@
+body {
+    width: 150px;
+}
+p {
+    border: solid 1px black;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 60px;
+}
+p:hover {
+    background: red;
+}
