@@ -32,9 +32,6 @@ let payBill = (amount, beneficiary) => {
   for ( a = 1; a < 21; a++) {
     console.log (a)
 }
-
-
-
 let printValues = [10, 20, 30, 40 ,50, 12]
 printValues.forEach ((Number) =>{
     console.log(Number)
