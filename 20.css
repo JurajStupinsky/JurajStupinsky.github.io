@@ -32,3 +32,21 @@ body {
     height: 80px;
     background: purple;
 }
+.p1_Lorem {
+    text-align: left;
+    width: 30%;
+  }
+  h1 {
+    color: orange;
+  }
+  h2 {
+    color: violet;
+  }
+  .ol {
+    text-decoration-line: underline;
+  }
+  .ol_violet {
+    color: violet;
+    text-decoration-line: underline;
+    font-weight: bo
+  }
