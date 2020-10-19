@@ -5,8 +5,6 @@ names.forEach(element => {
     $('ul').append('<li class="ol">'+element+'</li>');    
 });
 let additionalBlock = 
-    '<h1>Some HTML here</h1>'
-    +
-    "<p>This block was added using JavaScript's jQuery library. How awesome!</p>"
+    `<h1>Some HTML here</h1><p>This block was added using JavaScript's jQuery library. How awesome!</p>`
 
  document.write(additionalBlock)
