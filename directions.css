@@ -40,6 +40,11 @@
     width: 5cm;
     height: 2cm;
     font-size: 24px;
-    background-color: -ine
+  }
+   input {
+     width: 5cm;
+     height: 2cm;
+     font-size: 24px;
+     margin-top: 12px;
    }
   

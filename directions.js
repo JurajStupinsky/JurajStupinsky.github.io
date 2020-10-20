@@ -37,3 +37,13 @@ $('.b_def').click(() => {
   // it's the same as before
 })
 
+$('.b_set').click(() => {
+  let i_color = $('.c_input').val()
+  $('.b_cc0').css('background', i_color) 
+  $('.b_cc1').css('background', i_color )
+  $('.b_cc2').css('background', i_color )
+  $('.b_def').css('background', i_color )
+  $('.b_set').css('background', i_color )
+  console.log(i_color)
+})
+
