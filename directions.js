@@ -36,7 +36,6 @@ $('.b_def').click(() => {
     console.log('Yeah, all back to normal')
   // it's the same as before
 })
-
 $('.b_set').click(() => {
   let i_color = $('.c_input').val()
   $('.b_cc0').css('background', i_color) 
@@ -46,4 +45,27 @@ $('.b_set').click(() => {
   $('.b_set').css('background', i_color )
   console.log(i_color)
 })
+let xc = 0
+$('.counter').text(xc)
+$('.b_cc0, .b_cc1, .b_cc2, .b_def, .b_set').click(() =>{
+xc++
+$('.counter').text(xc)
+})
+$('.rem_c').click(() => {
+  xc--
+  $('.counter').text(xc)
+})
+$('.rem_c10').click(() => {
+  xc = (xc - 10)
+  $('.counter').text(xc)
+})
 
+$('.add_c5').click(() => {
+  xc = (xc + 5)
+  $('.counter').text(xc)
+})
+
+$('.mul_c5').click(() => {
+  xc = (xc * 5)
+  $('.counter').text(xc)
+})
